@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 		success : function(parsed_json) {
 			var location = parsed_json['location']['city'];
 			var weather = parsed_json['current_observation']['weather'];
-			alert("Current temperature in " + location + " is: " + weather);
+			//alert("Current temperature in " + location + " is: " + weather);
 		}
 	});
 });
