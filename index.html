@@ -5,6 +5,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     	<link rel="stylesheet" href="index.css">
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
   </head>
   <body>
     <div class="nav">
@@ -13,7 +14,7 @@
       	<li><a href="#">wthr</a></li>
       </ul>
         <ul class="pull-right">
-          <li><a href="#">Your current location: Dallas Fort Worth</a></li>
+          <li><a href="#" id="city">Your current location: Dallas Fort Worth</a></li>
         </ul>
       </div>
     </div>
@@ -28,13 +29,13 @@
 	    		<img src="http://i59.tinypic.com/2yod06f.png">
 	    		</div>
 	    		<div class="col-md-6">
-	    		<h1>33ºF</h1>
+	    		<h1 id="currentTemp">>33ºF</h1>
 	    		</div>
 	    		<div class="col-md-6">
-	    		<h2>Rain/Shower</h2>
+	    		<h2 id="currentWeather">Rain/Shower</h2>
 	    		</div>
 	    		<div class="col-md-6">
-	    		<h2>43ºF | 36ºF</h2>
+	    		<h2 id="highAndLow">43ºF | 36ºF</h2>
 	    		</div>
 	    	</div>
     	</div>
@@ -47,6 +48,8 @@
     			<li><h2>Find individuals near you and let them know what you think of the weather.</h2></li>
     		</ul>
     	</div>
+    </div>
+    <div class="chat" id="candy">
     </div>
     <div class="misc">
     </div>
