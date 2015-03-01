@@ -9,6 +9,10 @@ jQuery(document).ready(function($) {
 		success : function(parsed_json) {
 			var location = parsed_json['location']['city'];
 			var weather = parsed_json['current_observation']['weather'];
+<<<<<<< HEAD
+=======
+			//alert("Current temperature in " + location + " is: " + weather);
+>>>>>>> 2a9b161c402eb6a0955f0b10c65025986a55da35
 		}
 	});
 });
