@@ -1,0 +1,89 @@
+body {
+  font-family: 'Open Sans Light', sans-serif;
+
+}
+
+.nav {
+	background-color: #253e90;
+
+}
+
+.nav a {
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 14px 14px;
+	text-transform: uppercase;
+}
+
+.nav li {
+ 	display: inline;
+
+}
+
+.pull-right {
+	text-align: right;
+	color: #fff;
+}
+
+.slider {
+	position: relative;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image:url('http://www.cimgroup.com/media/89127/pmc-bg-5.jpg');
+}
+
+.slider .container {
+	text-align: center;
+	top:100px;
+	color: #fff;
+
+}
+
+.slider h1 {
+	color: #fff;
+	font-size: 48px;  
+	font-family: 'Open Sans Light', sans-serif;
+	font-weight: bold;
+
+}
+
+.slider h2 {
+	float: center;
+
+}
+
+.info {
+	background-color: #fff;
+}
+
+.info .container {
+	color: #393c3d;
+	font-size: 24px;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+.info li {
+	display: block;
+}
+
+.info h2 {
+	font-size: 18px;
+}
+
+.misc {
+	background-color: #253e90;
+}
+
+.footer {
+	background-color: #696969;
+	text-align: center;
+}
+
+.footer p {
+	font-size: 18px;
+	color: #fff;
+	padding: 25px 25px 25px 25px;
+}
