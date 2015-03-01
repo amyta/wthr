@@ -11,6 +11,7 @@ jQuery(document).ready(function($) {
 			var temp = parsed_json['current_observation']['temp_f'];
 			$("#currentTemp").text(temp + "\u00B0F");
 			$("#currentWeather").text(weather);
+			$("#city").text("Your current location: " + city + ", " + state);
 		}
 	});
 
