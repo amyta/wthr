@@ -3,7 +3,22 @@
   <head>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"> </script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
     <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    <script type="text/javascript" src="candy/libs/libs.min.js"></script>
+    <script type="text/javascript" src="candy/candy.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          Candy.init('http-bind/', {
+            core: {
+              autojoin: true
+            },
+            view: { assets: 'candy/res/' }
+          });
+          Candy.Core.connect();
+        });
+    </script>
+
   </head>
   <body>
     <div class="nav">
